@@ -28,6 +28,7 @@ export class CourseListComponent implements OnInit {
   ];
 
   private _selectedRow: number;
+  searchResults: string;
 
   get selectedRow(): number {
     return this._selectedRow;
