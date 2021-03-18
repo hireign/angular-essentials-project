@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Hello, Angular!';
+  title = 'Hello Angular!';
+  firstName = "Your Name";         
+  birthDate : Date = new Date(1980, 6, 31);         
+
+  now : Date = new Date();         
 }

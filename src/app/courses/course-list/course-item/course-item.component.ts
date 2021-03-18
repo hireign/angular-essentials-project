@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Course } from '../../courses.model'; 
+import { Course } from '../../course.model';
 
 @Component({
   selector: 'app-course-item',
@@ -7,12 +7,11 @@ import { Course } from '../../courses.model';
   styleUrls: ['./course-item.component.css']
 })
 export class CourseItemComponent implements OnInit {
+  @Input() course: Course;
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
   }
-
-  @Input() course: Course; 
 
 }
