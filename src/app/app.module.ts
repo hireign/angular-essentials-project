@@ -9,9 +9,9 @@ import { CourseDetailComponent } from './courses/course-detail/course-detail.com
 import { CourseListComponent } from './courses/course-list/course-list.component';
 import { CourseStartComponent } from './courses/course-start/course-start.component';
 import { CourseItemComponent } from './courses/course-list/course-item/course-item.component';
-import { TruncatePipe } from './truncate.pipe';
-import { FilterPipe } from './filter.pipe';
-import { OrderByPipe } from './order-by.pipe';
+import { TruncatePipe } from './shared/truncate.pipe';
+import { FilterPipe } from './shared/filter.pipe';
+import { OrderByPipe } from './shared/order-by.pipe';
 import { ContactComponent } from './contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 
